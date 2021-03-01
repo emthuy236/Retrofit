@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/txtheader"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập hệ thống" />
+    <EditText
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:hint="tài khoản"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtheader"
+        android:id="@+id/edtaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:hint="mật khẩu"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtaccount"
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="#FFFF"
+        android:background="#B300FF"
+        android:text="Đăng kí"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtpassword"
+        android:id="@+id/btndangki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="#FFFF"
+        android:background="#B300FF"
+        android:text="Đăng nhập  "
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtpassword"
+        android:id="@+id/btndangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

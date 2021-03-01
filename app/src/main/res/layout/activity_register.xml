@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+
+
+    <TextView
+        android:id="@+id/idtxtdangki"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="30sp"
+        android:text="Đăng kí sinh viên"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/idtxtdangki"
+        android:id="@+id/imgregister"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edttaikhoan"
+        android:hint="nhập tài khoản"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/imgregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtmatkhau"
+        android:hint="nhập mật khẩu"
+        android:inputType="textPassword"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edttaikhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="#FFFF"
+        android:background="#B300FF"
+        android:text="Hủy"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtmatkhau"
+        android:id="@+id/btnhuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textColor="#FFFF"
+        android:background="#B300FF"
+        android:text="Xác nhận  "
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edtmatkhau"
+        android:id="@+id/btnxacnhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
